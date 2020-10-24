@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_dark"
+    android:orientation="vertical"
+    tools:context=".SplashActivity">
+
+    <ImageView
+        android:id="@+id/ivSplashScreen"
+        android:layout_width="match_parent"
+        android:layout_height="550dp"
+        android:layout_gravity="center"
+        android:src="@drawable/splash_image" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="167dp"
+        android:paddingBottom="5dp"
+        android:text="FROM"
+        android:textColor="#E3106C"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tvSplashText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="147dp"
+        android:text="CODEPATH"
+        android:textColor="#E3106C"
+        android:textSize="18sp" />
+
+</LinearLayout>

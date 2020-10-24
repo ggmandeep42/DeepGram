@@ -9,7 +9,7 @@ import android.os.Looper;
 
 public class SplashActivity extends AppCompatActivity {
 
-    public static final int SPLASH_DISPLAY_LENGTH = 5000;
+    public static final int SPLASH_DISPLAY_LENGTH = 3000;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

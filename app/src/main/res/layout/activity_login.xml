@@ -35,4 +35,14 @@
         android:text="LOGIN"
         android:textColor="@android:color/background_light" />
 
+    <Button
+        android:id="@+id/btnSignup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+
+        android:background="@drawable/button_background_signup"
+        android:text="SIGN UP"
+        android:textColor="@android:color/background_light" />
+
 </LinearLayout>
